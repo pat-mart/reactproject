@@ -1,8 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import {StyleSheet, Text, 
-        SafeAreaView, Button,
-        Pressable} from 'react-native';
+import {StyleSheet, Text, SafeAreaView, Pressable} from 'react-native';
 
 const Counter = ({title}) => {
     const[num, setNum] = useState(0);
