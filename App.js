@@ -7,8 +7,7 @@ import Counter from './src/components/Counter'
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Header title="Counter.js">
-      </Header> 
+      <Header title="Counter.js"></Header> 
       <Counter></Counter>
     </SafeAreaView>
   );
